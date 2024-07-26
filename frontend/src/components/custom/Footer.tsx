@@ -28,7 +28,7 @@ function selectSocialIcon(url: string) {
 
 export function Footer({ data }: Readonly<FooterProps>) {
   const { logoText, socialLink, text } = data;
-  console.dir(socialLink, { depth: null });
+
   return (
     <div className="dark bg-gray-900 text-white py-8">
       <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between">
